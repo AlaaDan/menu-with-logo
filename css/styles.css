@@ -1,27 +1,25 @@
 
 p, div, body{
     display: flex;
-
-    
 }
 
 .bar{
     width: 800px;
     height: 40px;
     background-color: lightgray;
-    justify-content: end;
-    align-items: inherit;
+    justify-content: flex-end;    
     gap: 30px;
 
 }
 
 p{
+    align-items: center; 
     position: relative;
-    left: 150px;
-    bottom: 5px;
- 
+    right: 20px;
+
 }
 img{
     position: relative;
-    right: 660px;
+    right: 320px;
+    
 }
