@@ -1,0 +1,24 @@
+
+p, div, body{
+    display: flex;
+    
+}
+
+.bar{
+    width: 800px;
+    height: 40px;
+    background-color: lightgray;
+    justify-content: end;
+}
+
+p{
+    position: relative;
+    left: 130px;
+    bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+img{
+    position: relative;
+    right: 660px;
+}
