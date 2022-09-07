@@ -1,6 +1,7 @@
 
 p, div, body{
     display: flex;
+
     
 }
 
@@ -9,14 +10,16 @@ p, div, body{
     height: 40px;
     background-color: lightgray;
     justify-content: end;
+    align-items: inherit;
+    gap: 30px;
+
 }
 
 p{
     position: relative;
-    left: 130px;
+    left: 150px;
     bottom: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
+ 
 }
 img{
     position: relative;
