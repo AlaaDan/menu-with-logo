@@ -1,25 +1,29 @@
-
-p, div, body{
+body{
     display: flex;
 }
-
 .bar{
+    display: flex;
     width: 800px;
     height: 40px;
     background-color: lightgray;
-    justify-content: flex-end;    
-    gap: 30px;
-
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 24px;
 }
 
-p{
-    align-items: center; 
-    position: relative;
-    right: 20px;
+.menu_med{
+    display: flex;
+    justify-content: end;
+    flex: 1;
+    
 
 }
 img{
     position: relative;
-    right: 320px;
+    right: 300px;
     
+}
+
+p{
+    width: 100px;
 }
